@@ -4,3 +4,6 @@
 
 # Java stuff
 target
+
+# Ignore folder for deployable wars
+deploy
