@@ -10,6 +10,7 @@ echo "compiling with maven"
 mvn clean install
 
 echo "copying war file to deploy folder"
+rm -rf deploy/$1/
 mkdir -p deploy/$1
 cp target/*.war deploy/$1
 mv deploy/$1/*.war deploy/$1/root.war
