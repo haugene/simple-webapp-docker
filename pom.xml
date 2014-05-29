@@ -43,7 +43,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     </dependencies>
 
     <build>
-        <finalName>docker-demo-webapp</finalName>
+        <finalName>docker-demo-webapp-${project.version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
