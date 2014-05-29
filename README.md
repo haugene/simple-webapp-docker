@@ -1,0 +1,1 @@
+Simple Java webapp with Spring MVC. Intended to be used in a demonstration of Docker. We will set up a number of docker instances with load balancing. To know which node is serving our request, the webapp prints server hostname in welcome.jsp.
